@@ -17,6 +17,8 @@ let btnSuma = document.getElementById("suma");
 let btnResta = document.getElementById("menos");
 let btnMultiplicacion = document.getElementById("multiplicacion");
 let btnDivision = document.getElementById("division");
+let btnC = document.getElementById("c");
+let btnCe = document.getElementById("ce");
 
 //-------------------------------------funciones--------------------------------------
 const fn1 = () => {
@@ -81,6 +83,16 @@ const fnMultiplicacion = () => {
 
 const fnDivision = () => {
     muestra.innerHTML += "÷";
+};
+
+const fnC = () => {
+    muestra.innerHTML = "";
+};
+
+const fnCe = () => {
+    let data = muestra.innerHTML;
+    let final = data.substring(0, data.length -1);
+    muestra.innerHTML = final;
 };
 
 // ----------------------------------- -eventos------------------------------------------
@@ -149,5 +161,15 @@ btnResta.onclick = function () {
 
   btnDivision.onclick = function () {
     fnDivision();
+  };
+
+
+  btnC.onclick = function () {
+    fnC();
+  };
+
+
+  btnCe.onclick = function () {
+    fnCe();
   };
       
