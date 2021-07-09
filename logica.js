@@ -10,6 +10,8 @@ let btn7 = document.getElementById("7");
 let btn8 = document.getElementById("8");
 let btn9 = document.getElementById("9");
 let btn0 = document.getElementById("0");
+let btnIgual = document.getElementById("igual");
+let btnPunto = document.getElementById("punto");
 
 //-------------------------------------funciones--------------------------------------
 const fn1 = () => {
@@ -21,35 +23,43 @@ const fn2 = () => {
 };
 
 const fn3 = () => {
-    vista.innerHTML += "3";
+  vista.innerHTML += "3";
 };
 
 const fn4 = () => {
-    vista.innerHTML += "4";
+  vista.innerHTML += "4";
 };
 
 const fn5 = () => {
-    vista.innerHTML += "5";
+  vista.innerHTML += "5";
 };
 
 const fn6 = () => {
-    vista.innerHTML += "6";
+  vista.innerHTML += "6";
 };
 
 const fn7 = () => {
-    vista.innerHTML += "7";
+  vista.innerHTML += "7";
 };
 
 const fn8 = () => {
-    vista.innerHTML += "8";
+  vista.innerHTML += "8";
 };
 
 const fn9 = () => {
-    vista.innerHTML += "9";
+  vista.innerHTML += "9";
 };
 
 const fn0 = () => {
-    vista.innerHTML += "0";
+  vista.innerHTML += "0";
+};
+
+const fnIgual = () => {
+  vista.innerHTML += "=";
+};
+
+const fnPunto = () => {
+  vista.innerHTML += ".";
 };
 
 // ----------------------------------- -eventos------------------------------------------
@@ -91,4 +101,12 @@ btn9.onclick = function () {
 
 btn0.onclick = function () {
   fn0();
+};
+
+btnIgual.onclick = function () {
+  fnIgual();
+};
+
+btnPunto.onclick = function () {
+  fnPunto();
 };
