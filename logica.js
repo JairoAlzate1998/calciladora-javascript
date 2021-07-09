@@ -13,6 +13,10 @@ let btn9 = document.getElementById("9");
 let btn0 = document.getElementById("0");
 let btnIgual = document.getElementById("igual");
 let btnPunto = document.getElementById("punto");
+let btnSuma = document.getElementById("suma");
+let btnResta = document.getElementById("menos");
+let btnMultiplicacion = document.getElementById("multiplicacion");
+let btnDivision = document.getElementById("division");
 
 //-------------------------------------funciones--------------------------------------
 const fn1 = () => {
@@ -63,6 +67,22 @@ const fnPunto = () => {
     muestra.innerHTML += ".";
 };
 
+const fnSuma = () => {
+    muestra.innerHTML += "+";
+};
+
+const fnResta = () => {
+    muestra.innerHTML += "-";
+};
+
+const fnMultiplicacion = () => {
+    muestra.innerHTML += "*";
+};
+
+const fnDivision = () => {
+    muestra.innerHTML += "÷";
+};
+
 // ----------------------------------- -eventos------------------------------------------
 btn1.onclick = function () {
   fn1();
@@ -111,3 +131,23 @@ btnIgual.onclick = function () {
 btnPunto.onclick = function () {
   fnPunto();
 };
+
+btnSuma.onclick = function () {
+  fnSuma();
+};
+
+
+btnResta.onclick = function () {
+    fnResta();
+  };
+
+
+  btnMultiplicacion.onclick = function () {
+    fnMultiplicacion();
+  };
+
+
+  btnDivision.onclick = function () {
+    fnDivision();
+  };
+      
