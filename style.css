@@ -14,6 +14,7 @@
 .vista{
     height: 50px;
     width: max-content;
+    color: black;
 }
 
 button {
@@ -29,6 +30,7 @@ button {
     height: 50px;
     border-radius: 50%;
     font-size: 20px;
+    font-family: Cursive;
 }
 
 .igual {
