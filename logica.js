@@ -1,5 +1,6 @@
 //-----------------------------------variables-------------------------------------
 let vista = document.getElementById("vista");
+let muestra = document.getElementById("muestra");
 let btn1 = document.getElementById("1");
 let btn2 = document.getElementById("2");
 let btn3 = document.getElementById("3");
@@ -15,51 +16,51 @@ let btnPunto = document.getElementById("punto");
 
 //-------------------------------------funciones--------------------------------------
 const fn1 = () => {
-  vista.innerHTML += "1";
+    muestra.innerHTML += "1";
 };
 
 const fn2 = () => {
-  vista.innerHTML += "2";
+    muestra.innerHTML += "2";
 };
 
 const fn3 = () => {
-  vista.innerHTML += "3";
+    muestra.innerHTML += "3";
 };
 
 const fn4 = () => {
-  vista.innerHTML += "4";
+    muestra.innerHTML += "4";
 };
 
 const fn5 = () => {
-  vista.innerHTML += "5";
+    muestra.innerHTML += "5";
 };
 
 const fn6 = () => {
-  vista.innerHTML += "6";
+    muestra.innerHTML += "6";
 };
 
 const fn7 = () => {
-  vista.innerHTML += "7";
+    muestra.innerHTML += "7";
 };
 
 const fn8 = () => {
-  vista.innerHTML += "8";
+    muestra.innerHTML += "8";
 };
 
 const fn9 = () => {
-  vista.innerHTML += "9";
+    muestra.innerHTML += "9";
 };
 
 const fn0 = () => {
-  vista.innerHTML += "0";
+    muestra.innerHTML += "0";
 };
 
 const fnIgual = () => {
-  vista.innerHTML += "=";
+    muestra.innerHTML += "=";
 };
 
 const fnPunto = () => {
-  vista.innerHTML += ".";
+    muestra.innerHTML += ".";
 };
 
 // ----------------------------------- -eventos------------------------------------------
