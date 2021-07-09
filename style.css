@@ -4,6 +4,7 @@
     border-style:outset;
     width: max-content;
     border-radius: 25px;
+    background-color: #0e0d0d;
 }
 
 .teclado {
@@ -14,7 +15,6 @@
 .vista{
     height: 50px;
     width: max-content;
-    color: black;
 }
 
 button {
