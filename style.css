@@ -21,7 +21,7 @@ button {
     background-color: #0e0d0d; 
     border: none;
     color: white;
-    margin: 3px 3px 3px 3px;
+    margin: 2px 2px 2px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,30 +37,14 @@ button {
     background-color: #15ac29;
 }
 
-.c {
+.c, .ce {
     color: rgb(221, 11, 11);
 }
 
-.parentesis{
+.raiz, .mod, .potencia, .parentesis-izquierdo, .parentesis-derecho, .porcentaje, .division, .multiplicacion, .menos, .suma{
     color: #15ac29;
 }
 
-.porcentaje{
-    color: #15ac29;
-}
-
-.division{
-    color: #15ac29;
-}
-
-.multiplicacion{
-    color: #15ac29;
-}
-
-.menos{
-    color: #15ac29;
-}
-
-.suma{
-    color: #15ac29;
+.seno, .coseno, .tangente, .pi, .exponencial {
+    color: #d0d319;
 }
