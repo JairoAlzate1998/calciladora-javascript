@@ -2,10 +2,18 @@
     border: black;
     border-width: 5px;
     border-style:outset;
+    width: max-content;
+    border-radius: 25px;
 }
 
 .teclado {
     background-color: black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.vista{
+    height: 50px;
+    width: max-content;
 }
 
 button {
@@ -20,6 +28,7 @@ button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    font-size: 20px;
 }
 
 .igual {
