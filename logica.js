@@ -21,6 +21,7 @@ let btnC = document.getElementById("c");
 let btnCe = document.getElementById("ce");
 let btnRaiz = document.getElementById("raiz");
 let btnPotencia = document.getElementById("potencia");
+let btnPorcentaje = document.getElementById("porcentaje");
 
 //-------------------------------------funciones--------------------------------------
 const fn1 = () => {
@@ -105,6 +106,10 @@ const fnPotencia = () => {
   muestra.innerHTML += "^";
 };
 
+const fnPorcentaje = () => {
+  muestra.innerHTML += "%";
+};
+
 // ----------------------------------- -eventos------------------------------------------
 btn1.onclick = function () {
   fn1();
@@ -184,4 +189,8 @@ btnRaiz.onclick = function () {
 
 btnPotencia.onclick = function () {
   fnPotencia();
+};
+
+btnPorcentaje.onclick = function () {
+  fnPorcentaje();
 };
