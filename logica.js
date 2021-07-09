@@ -19,80 +19,90 @@ let btnMultiplicacion = document.getElementById("multiplicacion");
 let btnDivision = document.getElementById("division");
 let btnC = document.getElementById("c");
 let btnCe = document.getElementById("ce");
+let btnRaiz = document.getElementById("raiz");
+let btnPotencia = document.getElementById("potencia");
 
 //-------------------------------------funciones--------------------------------------
 const fn1 = () => {
-    muestra.innerHTML += "1";
+  muestra.innerHTML += "1";
 };
 
 const fn2 = () => {
-    muestra.innerHTML += "2";
+  muestra.innerHTML += "2";
 };
 
 const fn3 = () => {
-    muestra.innerHTML += "3";
+  muestra.innerHTML += "3";
 };
 
 const fn4 = () => {
-    muestra.innerHTML += "4";
+  muestra.innerHTML += "4";
 };
 
 const fn5 = () => {
-    muestra.innerHTML += "5";
+  muestra.innerHTML += "5";
 };
 
 const fn6 = () => {
-    muestra.innerHTML += "6";
+  muestra.innerHTML += "6";
 };
 
 const fn7 = () => {
-    muestra.innerHTML += "7";
+  muestra.innerHTML += "7";
 };
 
 const fn8 = () => {
-    muestra.innerHTML += "8";
+  muestra.innerHTML += "8";
 };
 
 const fn9 = () => {
-    muestra.innerHTML += "9";
+  muestra.innerHTML += "9";
 };
 
 const fn0 = () => {
-    muestra.innerHTML += "0";
+  muestra.innerHTML += "0";
 };
 
 const fnIgual = () => {
-    muestra.innerHTML += "=";
+  muestra.innerHTML += "=";
 };
 
 const fnPunto = () => {
-    muestra.innerHTML += ".";
+  muestra.innerHTML += ".";
 };
 
 const fnSuma = () => {
-    muestra.innerHTML += "+";
+  muestra.innerHTML += "+";
 };
 
 const fnResta = () => {
-    muestra.innerHTML += "-";
+  muestra.innerHTML += "-";
 };
 
 const fnMultiplicacion = () => {
-    muestra.innerHTML += "*";
+  muestra.innerHTML += "*";
 };
 
 const fnDivision = () => {
-    muestra.innerHTML += "÷";
+  muestra.innerHTML += "÷";
 };
 
 const fnC = () => {
-    muestra.innerHTML = "";
+  muestra.innerHTML = "";
 };
 
 const fnCe = () => {
-    let data = muestra.innerHTML;
-    let final = data.substring(0, data.length -1);
-    muestra.innerHTML = final;
+  let data = muestra.innerHTML;
+  let final = data.substring(0, data.length - 1);
+  muestra.innerHTML = final;
+};
+
+const fnRaiz = () => {
+  muestra.innerHTML += "√";
+};
+
+const fnPotencia = () => {
+  muestra.innerHTML += "^";
 };
 
 // ----------------------------------- -eventos------------------------------------------
@@ -148,28 +158,30 @@ btnSuma.onclick = function () {
   fnSuma();
 };
 
-
 btnResta.onclick = function () {
-    fnResta();
-  };
+  fnResta();
+};
 
+btnMultiplicacion.onclick = function () {
+  fnMultiplicacion();
+};
 
-  btnMultiplicacion.onclick = function () {
-    fnMultiplicacion();
-  };
+btnDivision.onclick = function () {
+  fnDivision();
+};
 
+btnC.onclick = function () {
+  fnC();
+};
 
-  btnDivision.onclick = function () {
-    fnDivision();
-  };
+btnCe.onclick = function () {
+  fnCe();
+};
 
+btnRaiz.onclick = function () {
+  fnRaiz();
+};
 
-  btnC.onclick = function () {
-    fnC();
-  };
-
-
-  btnCe.onclick = function () {
-    fnCe();
-  };
-      
+btnPotencia.onclick = function () {
+  fnPotencia();
+};
